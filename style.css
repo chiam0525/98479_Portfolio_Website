@@ -257,6 +257,7 @@ hr {
     width: 90%;
     height: 20px;
     overflow: hidden;
+    cursor: pointer;
     
     background-color: #1e293b;
     border-radius: 10px;
@@ -292,7 +293,7 @@ hr {
     cursor: pointer;
 }
 
-.project_card:hover {
+.project_card.is-expanded {
     height: 200px;
     box-shadow: 0 8px 25px rgba(158, 199, 228, 0.4);
 }
