@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Personal Porfolio Resume</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div id="page_transition_overlay" class="is_active"></div>
+    <header>
+      <div class="top_bar">
+        <a class="logo" href="index.html">
+          <img
+            src="https://i.ibb.co/bgmQf8cR/Black-and-Pink-Modern-Initials-Logo-Design-Photoroom.png"
+          />
+        </a>
+        <div class="button_column">
+          <button id="menu_button">
+            <span id="button_text">Menu</span>
+          </button>
+        </div>
+
+        <nav id="nav_bar">
+          <div class="links_box">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+          </div>
+
+          <div id="socials">
+            <hr />
+            <h2 class="socials_header">Socials</h2>
+            <div class="socials_link">
+              <a href="https://wa.me/601157759858">Whatsapp</a>
+              <a href="https://www.instagram.com/rong_lee831">Instagram</a>
+              <a href="mailto:99461@siswa.unimas.my">Email</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <section class="projects_section">
+      <div class="projects_header">
+        <h1>Personal Budgeting Application</h1>
+        <h2>
+          Your personal budgeting application, that guides individuals in understanding habits, balancing income and expenses,and shaping a clearer path towards financial goals, making money management simpler and smarter.
+        </h2>
+      </div>
+      <hr class="projects_hr" />
+
+      <div class="projects_split_content">
+        <div class="projects_left">
+          <h2>Why This Personal Budgeting Application?</h2>
+          <p>
+            For those who desire to manage personal finances effectively, this Personal Budgeting Application can be used as the perfect guidance.
+          </p>
+          <p>
+            From financial goals, to expenses tracking, to budget managing, to generating reportsd and so on. This application has it all.
+          </p>
+          <h2>Tech Stack</h2>
+          <p>
+            <ul>
+              <li>Python Language</li>
+              <li>PyCharm</li>
+            </ul>
+          </p>
+          <div class="icon_container3">
+            <img src="https://i.ibb.co/xq1P9L14/ef1786b571a40892dd45c793f36dd16f.png">
+            <img src="https://i.ibb.co/Nntj1zqb/pngegg-2.png">
+          </div>
+        </div>
+        <div class="projects_right_img">
+          <img
+            src="https://i.ibb.co/YBfJn8zg/pexels-karola-g-4386433.jpg">
+            alt="Image of Money"
+          />
+        </div>
+      </div>
+
+      <div class="projects_screenshot">
+        <hr class="projects_hr" />
+        <h2>What Is Inside The Application?</h2>
+        <p>
+          There are multiple functions that help users to keep track with their finance. Expense tracking, Financial goals, Budget managing and Report generating.
+        </p>
+        <div class="image_gallery">
+          <img class="gallery_images"  src="https://i.ibb.co/svMk3bwc/Untitled-design-1.png">
+          <img class="gallery_images" src="https://i.ibb.co/wrBhHZcg/Screenshot-2025-12-05-224226.png">
+          <img class="gallery_images" src="https://i.ibb.co/wrBhHZcg/Screenshot-2025-12-05-224226.png">
+          <a class="prev3" onclick="imageValue(-1)">&#10094;</a>
+          <a class="next3" onclick="imageValue(1)">&#10095;</a>
+        </div>
+      </div>
+    </section>
+    <button onclick="scrollToTop()" id="back_top_btn" >
+      <img src="https://i.ibb.co/xtkdtr8b/arrow-angle-pointing-up-svgrepo-com.png">
+    </button>
+    <button class="nxt_proj_btn">
+      <a href="project2.html">Previous Project</a>
+    </button>
+    <script src="script.js"></script>
+  </body>
+</html>

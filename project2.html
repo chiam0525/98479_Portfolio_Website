@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Personal Porfolio Resume</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div id="page_transition_overlay" class="is_active"></div>
+    <header>
+      <div class="top_bar">
+        <a class="logo" href="index.html">
+          <img
+            src="https://i.ibb.co/bgmQf8cR/Black-and-Pink-Modern-Initials-Logo-Design-Photoroom.png"
+          />
+        </a>
+        <div class="button_column">
+          <button id="menu_button">
+            <span id="button_text">Menu</span>
+          </button>
+        </div>
+
+        <nav id="nav_bar">
+          <div class="links_box">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+          </div>
+
+          <div id="socials">
+            <hr />
+            <h2 class="socials_header">Socials</h2>
+            <div class="socials_link">
+              <a href="https://wa.me/601157759858">Whatsapp</a>
+              <a href="https://www.instagram.com/rong_lee831">Instagram</a>
+              <a href="mailto:99461@siswa.unimas.my">Email</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <section class="projects_section">
+      <div class="projects_header">
+        <h1>Autonomous Rail Rapid Transit Application Prototype</h1>
+        <h2>
+          Experience the innovative application prototype for Autonomous Rail Rapid Transit, which provides a glimpse into the future of efficient and technology-driven public transportation system.
+        </h2>
+      </div>
+      <hr class="projects_hr" />
+
+      <div class="projects_split_content">
+        <div class="projects_left">
+          <h2>Building A Unique Experience</h2>
+          <p>
+            Through the utilization of Human Computer Interaction elements as well as UI/UX knowledge, a seamless and powerful prototype was given birth.
+          </p>
+          <p>
+            The Autonomous Rapid Rail Transit application prototype is developed according to the ART plan by Sarawak Metro, which is part of Kuching Urban Transportation System (KUTS) project.
+          </p>
+          <h2>Tech Stack</h2>
+          <p>
+            <ul>
+              <li>Figma</li>
+            </ul>
+          </p>
+          <div class="icon_container2">
+            <img src="https://i.ibb.co/23DmPFct/62c6bc25eee9410fe137d91f.png">
+          </div>
+        </div>
+        <div class="projects_right_img">
+          <img src="https://i.ibb.co/jPj0DRGf/art-Interior.jpg">
+        </div>
+      </div>
+
+      <div class="projects_screenshot">
+        <hr class="projects_hr" />
+        <h2>What Is Inside The Application?</h2>
+        <p>
+          The Autonomous Rapid Rail Transit Application Prototype provides features such as Maps, Ticket Purchase, Real-Time Tracking and so on. In addition, Accessibility features are included to provide inclusion.
+        </p>
+        <div class="image_gallery">
+          <img class="gallery_images" src="https://i.ibb.co/8h2Fyqm/Screenshot-2025-12-05-215805.png">
+          <img class="gallery_images" src="https://i.ibb.co/j9jn0Cc8/Screenshot-2025-12-05-215817.png">
+          <img class="gallery_images" src="https://i.ibb.co/0jhfXNJz/Screenshot-2025-12-05-215853.png">
+          <img class="gallery_images" src="https://i.ibb.co/Jwkf5bCG/Screenshot-2025-12-05-215902.png">
+          <img class="gallery_images" src="https://i.ibb.co/xSPPk4NX/Screenshot-2025-12-05-215909.png">
+          <a class="prev" onclick="imageValue(-1)">&#10094;</a>
+          <a class="next" onclick="imageValue(1)">&#10095;</a>
+        </div>
+      </div>
+    </section>
+    <button onclick="scrollToTop()" id="back_top_btn" >
+      <img src="https://i.ibb.co/xtkdtr8b/arrow-angle-pointing-up-svgrepo-com.png">
+    </button>
+    <button class="nxt_proj_btn">
+      <a href="project3.html">Next Project</a>
+    </button>
+
+    <script src="script.js"></script>
+  </body>
+</html>

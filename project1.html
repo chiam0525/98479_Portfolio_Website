@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Personal Porfolio Resume</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div id="page_transition_overlay" class="is_active"></div>
+    <header>
+      <div class="top_bar">
+        <a class="logo" href="index.html">
+          <img
+            src="https://i.ibb.co/bgmQf8cR/Black-and-Pink-Modern-Initials-Logo-Design-Photoroom.png"
+          />
+        </a>
+        <div class="button_column">
+          <button id="menu_button">
+            <span id="button_text">Menu</span>
+          </button>
+        </div>
+
+        <nav id="nav_bar">
+          <div class="links_box">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+          </div>
+
+          <div id="socials">
+            <hr />
+            <h2 class="socials_header">Socials</h2>
+            <div class="socials_link">
+              <a href="https://wa.me/601157759858">Whatsapp</a>
+              <a href="https://www.instagram.com/rong_lee831">Instagram</a>
+              <a href="mailto:99461@siswa.unimas.my">Email</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <section class="projects_section">
+      <div class="projects_header">
+        <h1>My Herbopedia Application</h1>
+        <h2>
+          Discover the beauty, history, and hidden power of nature’s most
+          cherished plants. Herbopedia is a thoughtfully curated digital
+          encyclopedia designed to bring the rich world of herbs to your
+          fingertips.
+        </h2>
+      </div>
+      <hr class="projects_hr" />
+
+      <div class="projects_split_content">
+        <div class="projects_left">
+          <h2>What Is Herbopedia?</h2>
+          <p>
+            The fusion of "Herb" and "Encyclopedia", instantly indicating the
+            characteristic of Herbopedia Application.
+          </p>
+          <p>
+            From fragrant culinary favorites to time-honored medicinal
+            treasures, Herbopedia presents each herb with clear, accessible, and
+            beautifully organized information.
+          </p>
+          <h2>Tech Stack</h2>
+          <p>
+            <ul>
+              <li>Android Studio</li>
+              <li>Kotlin</li>
+            </ul>
+          </p>
+          <div class="icon_container">
+            <img id="kotlin_icon" src="https://i.ibb.co/99D6WMxv/kotlinlang-logo-icon-168377.png">
+            <img id="android_studio_icon" src="https://i.ibb.co/7Njt6hXB/android-studio-icon.png">
+          </div>
+        </div>
+        <div class="projects_right_img">
+          <img
+            src="https://i.ibb.co/DdjZVVR/pexels-alleksana-4113889.jpg"
+            alt="Collection of Herbs"
+          />
+        </div>
+      </div>
+
+      <div class="projects_screenshot">
+        <hr class="projects_hr" />
+        <h2>What Is Inside The Application?</h2>
+        <p>
+          The initial concept of Herbopedia Application is inspired by Wikipedia. Main purpose of the application is to provide a platform for users to gain knowledge and spark interest on herbs. The Herbopedia Application has three main pages which are Main Menu, Profile Page and Herbs Information Page.
+        </p>
+        <div class="image_gallery">
+          <img class="gallery_images" src="https://i.ibb.co/gF306ZLT/Screenshot-2025-11-26-163554.png">
+          <img class="gallery_images" src="https://i.ibb.co/3y8sYkKb/Screenshot-2025-11-26-163616.png">
+          <img class="gallery_images" src="https://i.ibb.co/Q3PTMc1z/Screenshot-2025-11-26-163627.png" alt="Screenshot-2025-11-26-163627">
+          <a class="prev" onclick="imageValue(-1)">&#10094;</a>
+          <a class="next" onclick="imageValue(1)">&#10095;</a>
+        </div>
+      </div>
+    </section>
+    <button onclick="scrollToTop()" id="back_top_btn" >
+      <img src="https://i.ibb.co/xtkdtr8b/arrow-angle-pointing-up-svgrepo-com.png">
+    </button>
+    <button class="nxt_proj_btn">
+      <a href="project2.html">Next Project</a>
+    </button>
+    <script src="script.js"></script>
+  </body>
+</html>
